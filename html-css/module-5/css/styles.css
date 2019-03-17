@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+ 
+ * {
+    /* outline: 1px solid green; */
+    margin: 0px 0px 0px 0px;
+}
+
+/* HEADER */
+
+.logo {
+    margin-left: 285px;
+    font-family: Roboto Light;
+    font-size: 30px;
+    margin-top: 30px;
+    width: 750px;
+    height: 60px;
+}
+.logo::before {
+    content: "M";
+    color: #1abc9c;
+    font: Roboto Light;
+}
+.nav1, .nav2, .nav3, .nav4, .nav5, .nav6 {
+    display: inline-block;
+    width: 90px;
+    height: 20px;
+    text-align: center;
+    font-family: OpenSans Bolt;
+    font-size: 13px;
+    margin-top: 30px;
+    }
+.logo, .menu {
+    display: inline-block;
+}
+.nav1:hover {
+    color: #1abc9c;
+}
+
+/* FRONT BLOCK */
+
+.center {
+    width: 100vw;
+    height: 600px;
+    background-image: url(../img/c/1.png);
+    background-size: cover;
+    background-color: black;
+    opacity: 0.7;
+}
+.into {
+    width: 800px;
+    height: 150px;
+    padding-top: 200px;
+    padding-left: 150px;
+    color: white;
+    position: relative;
+    margin: auto;
+}
+.into::before {
+    content: "<";
+    width: 100px;
+    height: 100px;
+    background-color: #4ec6ab;
+    display: block;
+    text-align: center;
+    font-size: 80px;
+    position: absolute;
+    left: 0;
+    top: 150;
+}
+.into::after {
+    content: ">";
+    width: 100px;
+    height: 100px;
+    background-color: #4ec6ab;
+    display: block;
+    text-align: center;
+    font-size: 80px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 200px;
+}
+.into1 {
+    font-family: Roboto;
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: white;
+}
+.into2 {
+    font-family: Roboto;
+    font-size: 20px;
+    color: white;
+}
+
+/* WRAPPER */
+
+.ups1 {
+    display: block;
+    height: 100px;
+    background-color: #e9f0fd;
+    padding: 50px;
+    margin: auto;
+}
+.ups1::after {
+    content: "";
+    width: 200px;
+    height: 5px;
+    background-color: #4ec6ab;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+h2 {
+    display: inline-block;
+    text-align: center;
+    font-family: Roboto Black;
+    font-size: 45px;
+}
+.wrapper {
+    background-color: #e9f0fd;
+    padding-bottom: 100px;
+}
+.feat1, .feat2, .feat3, .feat4{
+    display: inline-block;
+    width: 330px;
+    height: auto;
+    background-color: #e9f0fd;
+}
+.feat1 {
+    margin-left: 150px;
+}
+.feat2, .feat3, .feat4 {
+    display: inline-block;
+    margin-left: 80px;
+}
+.feat {
+    background-color: black;
+    font-family: Roboto Light;
+    font-size: 21px;
+    color: white;
+    width: 230px;
+    height: 30px;
+    padding: 7px;
+    margin: 0 -4px 0 0;
+}
+.feat:hover {
+    background-color: #1abc9c;
+}
+.price {
+    background-color:#8c8c8c;
+    font-family: Roboto Light;
+    font-size: 21px;
+    color: white;
+    width: 70px;
+    height: 30px;
+    padding: 7px;
+}
+.price:hover {
+    background-color: #7fd9c7;
+}
+.price, .feat {
+    display: inline-block;
+}
+.price {
+    text-align: center;
+}
+.feati {
+    margin: 0 0 -4px 0;
+}
+.box {
+    position: relative;
+}
+
+.inbox {
+    background-color: rgb(114, 106, 106, 0.5);
+    width: 305px;
+    height: 300px;
+    display: none;
+    position: absolute;
+    top: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.icons {
+    width: 200px;
+    height: 130px;
+    /* border: 1px solid white; */
+    /* background-color: black; */
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) 
+}
+.i1, .i2, .i3 {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+}
+.i2 {
+    background-color: #1abc9c
+}
+.i2, .i3 {
+    margin-left: 3px;
+}
+.i4 {
+    width: 200px;
+    height: 60px;
+    border: 1px solid white;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    background-color: #323232;
+}
+.tt {
+    padding-top: 15px;
+    font-size: 20px;
+}
+.box:hover .inbox {
+    display: block;
+}
+.box:hover .feat {
+    background-color: #1abc9c;
+}
+.box:hover .price {
+    background-color: #7fd9c7;
+}
+
+/* FOOTER */
+
+footer {
+    font-family: Roboto;
+    height: 100px;
+    text-align: center;
+    background-color: #323232;
+}
+.info::after {
+    content: "ThemenGraph";
+    color: #46bfa9;
+}
+.info {
+    padding-top: 40px;
+    color: white;
+}
