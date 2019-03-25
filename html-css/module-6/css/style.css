@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300i,400');
+
+* {
+    /* outline: 1px solid grey; */
+    margin: 0 0 0 0;
+}
+.wrapper {
+    max-width: 1160px;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    color: #caf0e9;
+    margin-bottom: 100px;
+}
+.head1, .head2 {
+    width: 580px;
+    height: 70px;
+}
+.head1 {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.heads {
+   display: flex;
+   font-size: 23px;
+   font-family: 'Montserrat', sans-serif;
+   color: #95e1d3;
+   width: 90px;
+   height: 26px;
+   font-weight: bold;
+} 
+.head2 {
+    display: flex;
+    justify-content: space-around;
+}
+.nav {
+    height: 20px;
+    color: #caf0e9;
+    padding-top: 25px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: #95e1d3;
+}
+.nav:hover {
+    color: #f38181;
+    border-bottom: 2px solid #f38181;
+}
+
+/* FRONTTITLE */
+
+.fronttitle {
+    text-align: center;
+}
+.titleone {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 14px;
+    margin-bottom: 28px;
+}
+.titletwo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.titletwo::after {
+    content: "";
+    width: 60px;
+    height: 5px;
+    background-color: #f38181;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+/* CONTAINER */
+
+.container1, .container2 {
+    max-width: 1160px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.container1 {
+    margin-bottom: 50px;
+}
+.text1, .text2 {
+    display: block;
+}
+.box1 {
+    width: 60px;
+    height: 95px;
+}
+.box2 {
+    width: 270px;
+    height: 95px;
+}
+.text1 {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 15px;
+    color: #333333;
+}
+.text2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #999999;
+}
+.text {
+    display: block;
+    margin: auto;
+    max-width: 940px;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 13.8px;
+    margin-bottom: 90px;
+    color: #999999;
+}
+
+/* TEAM  */
+
+.team {
+    max-width: 1160px;
+    height: 465px;
+    display: flex;
+}
+.player1 {
+    width: 400px;
+    height: 465px;
+    box-sizing: border-box;
+    position: relative;
+    background-image: url(../img/n/1.png);
+}
+.player2 {
+    width: 400px;
+    height: 465px;
+    box-sizing: border-box;
+    position: relative;
+    background-image: url(../img/n/2.png);
+}
+.player3 {
+    width: 400px;
+    height: 465px;
+    box-sizing: border-box;
+    position: relative;
+    background-image: url(../img/n/3.png);
+}
+.who {
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    padding-top: 25px;
+}
+.prof {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    color: #999999;
+    padding-top: 12px;
+}
+.box {
+    position: relative;
+    z-index: 10;
+}
+.inbox {
+    width: 100%;
+    height: 465px;
+    display: none;
+    position: absolute;
+    top: 0;
+}
+.box:hover .inbox {
+    display: block;
+    background-image: linear-gradient(#ee8889, #f0d989);
+    opacity: 0.7;  
+}
+.back {
+    width: 1160px;
+    height: 465px;
+    background-color: #95e1d3;
+    z-index: 1;
+    position: absolute;
+}
+.box:hover {
+    transform: translate(-3%, -3%);
+    transition: all 200ms linear;
+}
+.icons {
+    width: 220px;
+    height: 55px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+.i1, .i2, .i3, .i4 {
+    width: 55px;
+    height: 55px;
+    position: relative;
+    background-color: #dce38a;
+    margin: 1px;
+}
+.con {
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.i1:hover {
+    background-color: #95e1d3;
+}
+.i2:hover {
+    background-color: #95e1d3;
+}
+.i3:hover {
+    background-color: #95e1d3;
+}
+.i4:hover {
+    background-color: #95e1d3;
+}
+
+/* TEAM2 */
+
+.team2 {
+    width: 1160px;
+    height: 150px;
+    display: flex;
+}
+.nam1, .nam2, .nam3 {
+    width: 400px;
+    height: 170px;
+    text-align: center;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    border-top: 1px solid #e5e5e5;
+}
+
+.f1, .f2 {
+    width: 580px;
+    height: 70px;
+    display: flex;
+}
+.f2 {
+    justify-content: flex-end;
+}
+.f3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #404040;
+    padding-top: 35px;
+    font-size: 15px;
+}
+.f3::after {
+    content: "Laaqiq";
+    color: #fde7e7;
+}
+.f4 {
+    padding-top: 30px;
+    display: flex;
+}
+input {
+    float: left;
+}
+input[type="text"] {
+    height: 27px;
+    width: 180px;
+}
+input[type="submit"] {
+    height: 34px;
+    width: 120px;
+    background-color: #95e1d3;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
