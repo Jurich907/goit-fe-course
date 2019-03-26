@@ -1,38 +1,40 @@
- * {
-    outline: 1px solid green;
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+    /* outline: 1px solid green; */
     margin: 0px 0px 0px 0px;
 }
 
 .logo {
     float: left;
-    margin-left: 285px;
-    font-family: Roboto Light;
+    font-family: 'Roboto', sans-serif;
     font-size: 30px;
     margin-top: 30px;
+    margin-left: 280px;
 }
 .nav1, .nav2, .nav3, .nav4, .nav5, .nav6 {
-    display: block;
     float: right;
+    display: block;
     width: 90px;
     height: 20px;
     text-align: center;
-    font-family: OpenSans Bolt;
+    font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     margin-top: 30px;
     }
+
 .nav6:hover {
     color: #1abc9c;
 }
-.menu {
-    margin-right: 38px;
-}
+
 a {
     text-decoration: none;
 }
 .logo::before {
     content: "M";
     color: #1abc9c;
-    font: Roboto Light;
+    font-family: 'Roboto', sans-serif;
 }
 .ups2::after {
     content: "";
@@ -56,12 +58,12 @@ h2 {
     margin-top: 150px;
     display: inline-block;
     text-align: center;
-    font-family: Roboto Black;
+    font-family: 'Roboto', sans-serif;
     font-size: 55px;
     margin-bottom: 100px;
 }
 .head {
-    width: 1650px;
+    width: 1350px;
     height: auto;
     margin-bottom: 150px;
     display: block;
@@ -75,10 +77,9 @@ h2 {
     display: inline-block;
 }
 .wrapper {
-    max-width: 1650px;
+    max-width: 1350px;
     height: auto;
-    margin-left: 275px;
-    margin-right: 275px;
+    margin: 0 auto;
 }
 .new::after {
     content: "";
@@ -104,7 +105,7 @@ h2 {
     width: 420px;
     height: 650px;
     overflow: hidden;
-    font-family: OpenSans Bolt;
+    font-family: 'Open Sans', sans-serif;
 }
 .n2, .n3 {
     margin-left: 30px;
@@ -149,7 +150,7 @@ h2 {
 }
 .feat {
     background-color: black;
-    font-family: Roboto Light;
+    font-family: 'Roboto', sans-serif;
     font-size: 21px;
     color: white;
     width: 217px;
@@ -168,7 +169,7 @@ h2 {
 }
 .price {
     background-color:#8c8c8c;
-    font-family: Roboto Light;
+    font-family: 'Roboto', sans-serif;
     font-size: 21px;
     color: white;
     width: 45px;
