@@ -8,25 +8,31 @@
 
 /* HEADER */
 
+header {
+    width: 1300px;
+    height: 100px;
+    /* display: flex; */
+    margin: 0 auto;
+}
+
 .logo {
-    margin-left: 285px;
-    font-family: Roboto Light;
+    font-family: 'Roboto', sans-serif;
     font-size: 30px;
-    margin-top: 30px;
-    width: 750px;
+    margin-top: 20px;
+    width: 650px;
     height: 60px;
 }
 .logo::before {
     content: "M";
     color: #1abc9c;
-    font: Roboto Light;
+    font-family: 'Roboto', sans-serif;
 }
 .nav1, .nav2, .nav3, .nav4, .nav5, .nav6 {
     display: inline-block;
     width: 90px;
     height: 20px;
     text-align: center;
-    font-family: OpenSans Bolt;
+    font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     margin-top: 30px;
     }
@@ -34,6 +40,21 @@
     display: inline-block;
 }
 .nav1:hover {
+    color: #1abc9c;
+}
+.nav2:hover {
+    color: #1abc9c;
+}
+.nav3:hover {
+    color: #1abc9c;
+}
+.nav4:hover {
+    color: #1abc9c;
+}
+.nav5:hover {
+    color: #1abc9c;
+}
+.nav6:hover {
     color: #1abc9c;
 }
 
@@ -82,13 +103,13 @@
     margin-top: 200px;
 }
 .into1 {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 50px;
     margin-bottom: 30px;
     color: white;
 }
 .into2 {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     color: white;
 }
@@ -132,14 +153,14 @@ h2 {
 }
 .feat2, .feat3, .feat4 {
     display: inline-block;
-    margin-left: 80px;
+    margin-left: 10px;
 }
 .feat {
     background-color: black;
     font-family: Roboto Light;
     font-size: 21px;
     color: white;
-    width: 230px;
+    width: 205px;
     height: 30px;
     padding: 7px;
     margin: 0 -4px 0 0;
@@ -152,7 +173,7 @@ h2 {
     font-family: Roboto Light;
     font-size: 21px;
     color: white;
-    width: 70px;
+    width: 60px;
     height: 30px;
     padding: 7px;
 }
@@ -174,7 +195,7 @@ h2 {
 
 .inbox {
     background-color: rgb(114, 106, 106, 0.5);
-    width: 305px;
+    width: 275px;
     height: 300px;
     display: none;
     position: absolute;
@@ -185,8 +206,6 @@ h2 {
 .icons {
     width: 200px;
     height: 130px;
-    /* border: 1px solid white; */
-    /* background-color: black; */
     position: relative;
     top: 50%;
     left: 50%;
@@ -201,9 +220,7 @@ h2 {
     color: white;
     text-align: center;
 }
-.i2 {
-    background-color: #1abc9c
-}
+
 .i2, .i3 {
     margin-left: 3px;
 }
@@ -215,6 +232,18 @@ h2 {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     background-color: #323232;
+}
+.i1:hover {
+    background-color: #1abc9c;
+}
+.i2:hover {
+    background-color: #1abc9c;
+}
+.i3:hover {
+    background-color: #1abc9c;
+}
+.i4:hover {
+    background-color: #1abc9c;
 }
 .tt {
     padding-top: 15px;
