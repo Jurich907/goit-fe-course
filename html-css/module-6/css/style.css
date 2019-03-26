@@ -132,23 +132,24 @@ header {
     max-width: 1160px;
     height: 465px;
     display: flex;
+    justify-content: space-between;
 }
 .player1 {
-    width: 400px;
+    width: 370px;
     height: 465px;
     box-sizing: border-box;
     position: relative;
     background-image: url(../img/n/1.png);
 }
 .player2 {
-    width: 400px;
+    width: 370px;
     height: 465px;
     box-sizing: border-box;
     position: relative;
     background-image: url(../img/n/2.png);
 }
 .player3 {
-    width: 400px;
+    width: 370px;
     height: 465px;
     box-sizing: border-box;
     position: relative;
@@ -181,13 +182,21 @@ header {
     background-image: linear-gradient(#ee8889, #f0d989);
     opacity: 0.7;  
 }
-.back {
-    width: 1160px;
+.back1, .back2, .back3 {
+    width: 370px;
     height: 465px;
     background-color: #95e1d3;
     z-index: 1;
     position: absolute;
+    display: flex;
 }
+.back2 {
+    margin-left: 395px;
+}
+.back3 {
+    margin-left: 790px;
+}
+
 .box:hover {
     transform: translate(-3%, -3%);
     transition: all 200ms linear;
