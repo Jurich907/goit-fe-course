@@ -3,7 +3,6 @@
     font-family: Playfair Display Regular;
     color:  #6c6c6c;
     margin: 0;
-    padding: 10px;
 }
 
 .heads{
@@ -24,13 +23,14 @@ a {
     height: 500px;
     border: 1px solid color white;
     overflow: hidden;
-    margin: 7%;
+    margin: 80px;
     }
 
 img {
     width: 100%;
     overflow: hidden;
-    height: 300px;
+    width: 420px;
+    height: 320px;
 }
 
 .nav1 {
@@ -49,7 +49,9 @@ img {
     text-align: center;
 }
 .wrapper {
-    margin: 2% 5% 2% 5%;
+   max-width: 1200px;
+   height: auto;
+   margin: auto;
     }
 .second {
     font-family: 'Ubuntu Light', sans-serif;
