@@ -30,6 +30,7 @@
     position: absolute;
     left: 700px;
     top: 120px;
+    z-index: 0;
 }
 .container1, .container2 {
     width: 950px;
@@ -130,7 +131,7 @@ header {
     justify-content: space-between;
 }
 .box1, .box2, .box3 {
-    width: 274px;
+    max-width: 274px;
     height: 205px;
     display: block;
     text-align: center;
@@ -264,22 +265,23 @@ header {
     font-weight: 400;
 }
 .f1 {
-    width: 950px;
-    height: 205px;
+    max-width: 950px;
+    max-height: 205px;
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
     margin-bottom: 30px;
 }
 .f12 {
-    width: 455px;
+    max-width: 455px;
     height: 205px;
     display: block;
     
 }
 .f13 {
-    width: 455px;
+    max-width: 455px;
     height: 205px;
+    z-index: 100;
 }
 input[type="text"] {
     height: 50px;
