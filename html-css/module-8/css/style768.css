@@ -66,7 +66,7 @@
     /* CONTAINER */
 
     .container {
-        width: 485px;
+        max-width: 485px;
         height: auto;
         display: block;
         margin: 0 auto;

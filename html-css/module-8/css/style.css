@@ -4,7 +4,7 @@
 }
 
 .wrapper {
-    width: 1440px;
+    max-width: 1440px;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -50,7 +50,7 @@ header {
     font-weight: 700;
 }
 .main {
-    width: 322px;
+    min-width: 322px;
     height: 542px;
     margin: 0 auto;
     background-image: url(../img/10.png);
@@ -139,7 +139,7 @@ header {
 /* CONTAINER */
 
 .container {
-    width: 322px;
+    min-width: 322px;
     height: auto;
     display: block;
     margin: 0 auto;
