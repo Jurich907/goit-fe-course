@@ -1,0 +1,25 @@
+
+@media(min-width:1200px) {
+    
+    header {
+        width: 955px;
+        height: 36px;
+    }
+        
+    .main {
+        max-width: 1400px;
+        height: 700px;
+        background-image: url(../img/12.png);
+    }
+
+    .maindown {
+        min-width: 955px;
+        height: auto;
+    }
+
+    .c0 {
+        width: 955px;
+        height: auto;
+    }
+
+}
