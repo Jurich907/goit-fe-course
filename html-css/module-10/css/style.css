@@ -25,10 +25,9 @@
 }
 
 .background {
-    width: 1920px;
+    width: 100%;
     height: 1000px;
-    background-image: linear-gradient(#ee8889, #f0d989);
-    opacity: 0.9;
+    background-image: linear-gradient(rgba(231, 128, 130, 0.9), rgba(238, 215, 137, 0.9));
     position: absolute;
     display: block;
 
@@ -235,8 +234,7 @@ header {
 }
 .team__box:hover .team__inbox {
     display: block;
-    background-image: linear-gradient(#ee8889, #f0d989);
-    opacity: 0.7;  
+    background-image: linear-gradient(rgba(231, 128, 130, 0.7), rgba(238, 215, 137, 0.7));
 }
 .team__back1, .team__back2, .team__back3 {
     width: 370px;
