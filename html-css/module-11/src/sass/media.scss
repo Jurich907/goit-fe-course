@@ -1,0 +1,23 @@
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .container {
+        max-width: 1920px;
+        height: 1000px;
+        background-image: url(../img/eaglebig.png);
+    }
+
+    .team__player1 {
+        width: 370px;
+        height: 465px;
+        background-image: url(../img/n/10.png);
+    }
+    .team__player2 {
+        width: 370px;
+        height: 465px;
+        background-image: url(../img/n/20.png);
+    }
+    .team__player3 {
+        width: 370px;
+        height: 465px;
+        background-image: url(../img/n/30.png);
+    }
+}
