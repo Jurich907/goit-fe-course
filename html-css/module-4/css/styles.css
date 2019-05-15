@@ -11,8 +11,22 @@
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
     margin-top: 30px;
-    margin-left: 280px;
 }
+
+.menu {
+    width: 600px;
+    height: 100px;
+    float: right;
+    display: block;
+}
+
+.head {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 150px;
+    display: block;
+}
+
 .nav1, .nav2, .nav3, .nav4, .nav5, .nav6 {
     float: right;
     display: block;
@@ -24,7 +38,7 @@
     margin-top: 30px;
     }
 
-.nav6:hover {
+.nav1:hover, .nav2:hover, .nav3:hover, .nav4:hover, .nav5:hover, .nav6:hover {
     color: #1abc9c;
 }
 
@@ -55,27 +69,16 @@ a {
     margin-top: 20px;
 }
 h2 {
-    margin-top: 150px;
+    width: 100%;
+    height: 200px;
     display: inline-block;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 55px;
     margin-bottom: 100px;
+    margin: auto;
 }
-.head {
-    width: 1350px;
-    height: auto;
-    margin-bottom: 150px;
-    display: block;
-}
-.ups1 {
-    margin-left: 270px;
-    display: inline-block;
-}
-.ups2 {
-    margin-left: 470px;
-    display: inline-block;
-}
+
 .wrapper {
     max-width: 1350px;
     height: auto;
@@ -132,6 +135,15 @@ h2 {
     width: 420px;
     height: 300px;
 }
+
+.f1 {
+    margin-bottom: 50px;
+}
+
+.f2 {
+    margin-bottom: 100px;
+}
+
 .feat1, .feat2, .feat3, .feat4, .feat5, .feat6, .feat7, .feat8 {
     display: inline-block;
     width: 290px;
