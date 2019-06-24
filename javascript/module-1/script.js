@@ -12,12 +12,10 @@ const password = prompt('enter password');
 
 if (password === null) {
     message = 'Отменено пользователем!';
+} else if (password === ADMIN_PASSWORD) {
+    message = 'Добро пожаловать';
 } else {
-    if (password === ADMIN_PASSWORD){
-        message = 'Добро пожаловать';
-    } else {
-        message = 'Доступ запрещен, неверный пароль!';
-    }
+    message = 'Доступ запрещен, неверный пароль!';
 } 
 
 alert(message);
@@ -55,23 +53,29 @@ if (droidsPurchase === null) {
 const country = prompt('Выберите страну');
 let price = '';
 
-if (country === 'китай') {
+switch (country.toLowerCase()) {
+    case 'китай':
     price = 100;
     alert(`Доставка в ${country} будет стоить ${price} кредитов`);
-} else if (country === 'южная америка') {
+    break;
+    case 'южная америка':
     price = 250;
     alert(`Доставка в ${country} будет стоить ${price} кредитов`);
-} else if (country === 'австралия') {
+    break;
+    case 'австралия':
     price = 170;
     alert(`Доставка в ${country} будет стоить ${price} кредитов`);
-} else if (country === 'индия') {
+    break;
+    case 'индия':
     price = 80;
     alert(`Доставка в ${country} будет стоить ${price} кредитов`);
-} else if (country === 'ямайка') {
+    break;
+    case 'ямайка':
     price = 120;
     alert(`Доставка в ${country} будет стоить ${price} кредитов`);
-} else {
-  console.log('В вашей стране доставка не доступна');
+    break;
+    default:
+    console.log('В вашей стране доставка не доступна');
 }
 
 
