@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://https://github.com/Jurich907/goit-fe-course/goit-js-hw-10-food-service"
+    "url": "git+https://https://github.com/Jurich907/goit-fe-course"
   },
   "keywords": [],
   "author": "Jurich907",
@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/luxplanjay/webpack-starter-kit/issues"
   },
-  "homepage": "https://github.com/Jurich907/goit-fe-course/goit-js-hw-10-food-service",
+  "homepage": "https://github.com/Jurich907/goit-fe-course/javascript/goit-js-hw-10-food-service",
   "devDependencies": {
     "@babel/core": "^7.7.5",
     "@babel/plugin-proposal-class-properties": "^7.7.4",
