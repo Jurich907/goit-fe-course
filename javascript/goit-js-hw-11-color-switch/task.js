@@ -1,4 +1,4 @@
-"use sctict";
+"use strict";
 
 const colors = [
   "#FFFFFF",
@@ -9,10 +9,12 @@ const colors = [
   "#795548"
 ];
 
-const doc = document.querySelector("body");
+const refs = {
+  doc: document.querySelector("body"),
+  startButton: document.querySelector('button[data-action="start"]'),
+  stopButton: document.querySelector('button[data-action="stop"]')
+};
 
-const startButton = document.querySelector('button[data-action="start"]');
-const stopButton = document.querySelector('button[data-action="stop"]');
 const min = 0;
 const max = colors.length;
 let interval;
@@ -21,14 +23,15 @@ const randomIntegerFromInterval = (min, max) => {
   return Math.floor(Math.random() * (max - min + 1) + min);
 };
 
-startButton.addEventListener("click", () => {
+refs.startButton.addEventListener("click", () => {
   interval = setInterval(() => {
-    doc.style.backgroundColor = colors[randomIntegerFromInterval(min, max)];
+    refs.doc.style.backgroundColor =
+      colors[randomIntegerFromInterval(min, max)];
   }, 500);
-  startButton.disabled = true;
+  refs.startButton.disabled = true;
 });
 
-stopButton.addEventListener("click", () => {
+refs.stopButton.addEventListener("click", () => {
   clearInterval(interval);
-  startButton.disabled = false;
+  refs.startButton.disabled = false;
 });
