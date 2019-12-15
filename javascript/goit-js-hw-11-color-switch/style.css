@@ -1,0 +1,18 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.btn {
+  height: 50px;
+  width: 100px;
+  font-size: 24px;
+  font-weight: bold;
+  background: green;
+  display: inline-block;
+}
